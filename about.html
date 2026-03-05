@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skincare</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+<nav>
+  <div class="container nav-wrapper">
+
+    <!-- Logo -->
+  <div class="logo">
+      <a href="/">
+        <img src="/images/logo.png" alt="Logo">
+      </a>
+    </div>
+
+    <!-- Desktop Menu -->
+    <ul class="nav-menu">
+      <li>
+        <a href="#">Skincare <i class="fa fa-chevron-down"></i></a>
+        <div class="dropdown">
+          <a href="#">Cleansers</a>
+          <a href="#">Serums</a>
+          <a href="#">Moisturizers</a>
+        </div>
+      </li>
+
+      <li>
+        <a href="products.html">Collections <i class="fa fa-chevron-down"></i></a>
+        <div class="dropdown">
+          <a href="#">Hydration</a>
+          <a href="#">Anti-Aging</a>
+        </div>
+      </li>
+
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <!-- Right Icons (Visible All Devices) -->
+   <div class="nav-icons">
+  <i class="fa fa-search"></i>
+  
+  <div class="profile-container">
+    <i class="fa fa-user" id="profileIcon"></i>
+    <div class="profile-menu" id="profileMenu">
+      <a href="signin.html">Sign In</a>
+      <hr>
+      <a href="signup.html">Sign Up</a>
+    </div>
+  </div>
+
+ <div class="cart-icon-wrapper" style="position: relative; display: inline-block;">
+    <i class="fa fa-bag-shopping" onclick="window.location.href='cart.html'"></i>
+    <span id="cart-count" class="cart-badge">0</span>
+</div>
+
+
+  <div class="hamburger" id="menuToggle">
+    <i class="fa fa-bars" id="menuIcon"></i>
+  </div>
+</div>
+
+  </div>
+</nav>
+
+
+<!-- ================= MOBILE MENU ================= -->
+
+<div class="mobile-menu" id="mobileMenu">
+
+  <div class="close-btn" id="closeMenu">
+    <i class="fa fa-times"></i>
+  </div>
+
+  <ul>
+    <li>
+      <a href="#" id="mobileSkincareBtn">Skincare</a>
+      <div class="mobile-dropdown" id="mobileDrop">
+        <a href="#">Cleansers</a>
+        <a href="#">Serums</a>
+        <a href="#">Moisturizers</a>
+      </div>
+    </li>
+
+    <li><a href="products.html">Collections</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</div>
+
+
+
+
+
+
+<section id="story-sec" class="about-section bg-beige first-sec">
+    <div class="container flex-layout">
+        <div class="content-col">
+            <h2 class="heading-font">Our <strong>Story</strong></h2>
+            <p>Seoul Mirage was born from a passion for Korean skincare innovation and a commitment to creating luxury products that deliver exceptional results.</p>
+        </div>
+        <div class="image-col">
+            <img src="images/story.png" alt="Our Story">
+        </div>
+    </div>
+</section>
+
+<section id="journey-sec" class="about-section">
+    <div class="container flex-layout reverse">
+        <div class="content-col">
+            <h2 class="heading-font">Our Journey</h2>
+            <p>Founded in 2018 by skincare enthusiast and biochemist Dr. Ji-Yoon Park, Seoul Mirage began as a small laboratory in the heart of Seoul's beauty district. Frustrated by the prevalence of products with harsh chemicals and unfulfilled promises, Dr. Park set out to create a line that combined traditional Korean ingredients with cutting-edge science.</p>
+            <p>What started as a passion project quickly gained recognition for its exceptional quality and remarkable results. Today, Seoul Mirage has grown into a global brand.</p>
+        </div>
+        <div class="image-col">
+            <img src="images/journey.png" alt="Our Journey">
+        </div>
+    </div>
+</section>
+
+<section id="philosophy-sec" class="about-section">
+    <div class="container flex-layout">
+        <div class="content-col">
+            <h2 class="heading-font">Our Philosophy</h2>
+            <p>Founded in 2018 by skincare enthusiast and biochemist Dr. Ji-Yoon Park, Seoul Mirage began as a small laboratory...</p>
+            
+            <div class="philosophy-list">
+                <div class="philosophy-item">
+                    <h3>PURITY</h3>
+                    <p>We source the highest quality ingredients and maintain rigorous standards to ensure our products are free from harmful chemicals.</p>
+                </div>
+                <div class="philosophy-item">
+                    <h3>INNOVATION</h3>
+                    <p>We continuously research and develop new formulations that harness the power of both traditional Korean ingredients and modern scientific breakthroughs.</p>
+                </div>
+                <div class="philosophy-item">
+                    <h3>SUSTAINABILITY</h3>
+                    <p>We are committed to ethical practices, from responsible sourcing to eco-friendly packaging.</p>
+                </div>
+            </div>
+        </div>
+        <div class="image-col">
+            <img src="images/about-philosophy.png" alt="Philosophy Image">
+        </div>
+    </div>
+</section>
+
+<section id="ingredients-sec" class="ingredients-section bg-beige">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="heading-font">Our Ingredients</h2>
+            <p class="center-desc">We believe in the power of nature enhanced by science. Our formulations combine time-honored Korean botanical ingredients with advanced scientific compounds.</p>
+        </div>
+        
+        <div class="ingredients-grid">
+            <div class="ingredient-card ing-1">
+                <div class="ing-overlay">
+                    <h3>Botanical Extracts</h3>
+                    <p>From ginseng to green tea, our products harness the power of traditional Korean botanicals.</p>
+                </div>
+            </div>
+
+            <div class="ingredient-card ing-2">
+                <div class="ing-overlay">
+                    <h3>Fermented Ingredients</h3>
+                    <p>We utilize the ancient Korean practice of fermentation to enhance potency.</p>
+                </div>
+            </div>
+
+            <div class="ingredient-card ing-3">
+                <div class="ing-overlay">
+                    <h3>Scientific Compounds</h3>
+                    <p>Our formulations incorporate cutting-edge compounds like peptides and hyaluronic acid.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="newsletter">
+  <div class="container">
+    <h2>Join Our Community</h2>
+    <p>Subscribe to our newsletter for exclusive offers, skincare tips, and new product announcements.</p>
+    <div class="newsletter-form">
+      <input type="email" placeholder="Your email address">
+      <button class="subscribe-btn">Subscribe</button>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<!-- footer -->
+    <footer class="main-footer">
+    <div class="container footer-grid">
+        <div class="footer-col about-col">
+            <div class="footer-logo">
+                <img src="images/logo.png" alt="Seoul Mirage">
+            </div>
+            <p class="footer-desc">
+                Lorem ipsum dolor sit amet consectetur. <br>
+                Scelerisque lectus habitasse adipiscing.
+            </p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-google"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-col">
+            <h3>Shop</h3>
+            <ul>
+                <li><a href="#">All Products</a></li>
+                <li><a href="#">Bestsellers</a></li>
+                <li><a href="#">New Arrivals</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h3>About</h3>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Shipping & Returns</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container footer-bottom">
+        <hr>
+        <p>© 2025 Seoul Mirage. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="app.js"></script>
+
+</body>
+</html>

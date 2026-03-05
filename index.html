@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skincare</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<nav>
+  <div class="container nav-wrapper">
+
+    <!-- Logo -->
+    <div class="logo">
+      <a href="/">
+        <img src="/images/logo.png" alt="Logo">
+      </a>
+    </div>
+
+    <!-- Desktop Menu -->
+    <ul class="nav-menu">
+      <li>
+        <a href="#">Skincare <i class="fa fa-chevron-down"></i></a>
+        <div class="dropdown">
+          <a href="#">Cleansers</a>
+          <a href="#">Serums</a>
+          <a href="#">Moisturizers</a>
+        </div>
+      </li>
+
+      <li>
+        <a href="products.html">Collections <i class="fa fa-chevron-down"></i></a>
+        <div class="dropdown">
+          <a href="#">Hydration</a>
+          <a href="#">Anti-Aging</a>
+        </div>
+      </li>
+
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <!-- Right Icons (Visible All Devices) -->
+   <div class="nav-icons">
+  <i class="fa fa-search"></i>
+  
+  <div class="profile-container">
+    <i class="fa fa-user fa-regular" id="profileIcon"></i>
+    <div class="profile-menu" id="profileMenu">
+      <a href="signin.html">Sign In</a>
+      <hr>
+      <a href="signup.html">Sign Up</a>
+    </div>
+  </div>
+
+ <div class="cart-icon-wrapper" style="position: relative; display: inline-block;">
+    <i class="fa fa-bag-shopping" onclick="window.location.href='cart.html'"></i>
+    <span id="cart-count" class="cart-badge">0</span>
+</div>
+
+  <div class="hamburger" id="menuToggle">
+    <i class="fa fa-bars" id="menuIcon"></i>
+  </div>
+</div>
+
+  </div>
+</nav>
+
+
+<!-- ================= MOBILE MENU ================= -->
+
+<div class="mobile-menu" id="mobileMenu">
+
+  <div class="close-btn" id="closeMenu">
+    <i class="fa fa-times"></i>
+  </div>
+
+  <ul>
+    <li>
+      <a href="#" id="mobileSkincareBtn">Skincare</a>
+      <div class="mobile-dropdown" id="mobileDrop">
+        <a href="#">Cleansers</a>
+        <a href="#">Serums</a>
+        <a href="#">Moisturizers</a>
+      </div>
+    </li>
+
+    <li><a href="products.html">Collections</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</div>
+
+<!-- ================= HERO ================= -->
+
+<section class="hero">
+  <div class="hero-overlay"></div>
+
+  <div class="container hero-content">
+    <div class="hero-text">
+      <h1 class="heading-font">
+     Discover your skin's true potential
+      </h1>
+      <p>
+        Premium skincare that combines innovation with clean, effective ingredients for all skin types.
+      </p>
+      <button>Shop Now</button>
+      <button id="btn">About Us</button>
+    </div>
+  </div>
+</section>
+
+
+<!-- product section -->
+<section class="products-section container">
+  <div class="section-header">
+    <h2>Bestsellers</h2>
+    <a href="products.html" class="view-all">View all products <i class="fa fa-arrow-right"></i></a>
+  </div>
+  <div class="product-grid" id="bestseller-grid">
+    
+    </div>
+</section>
+
+<section class="category-section">
+  <div class="container">
+    <div class="section-header">
+      <h2>Shop by Category</h2>
+    </div>
+    <div class="category-grid" id="category-grid">
+      </div>
+  </div>
+</section>
+
+<section class="products-section container">
+  <div class="section-header">
+    <h2>New Arrivals</h2>
+    <a href="products.html" class="view-all">View all products <i class="fa fa-arrow-right"></i></a>
+  </div>
+  <div class="product-grid" id="new-arrival-grid">
+    </div>
+</section>
+
+<section class="philosophy">
+    <div class="container philosophy-wrapper">
+        <div class="philosophy-content">
+            <h2>Our Skincare Philosophy</h2>
+            <p>Seoul Mirage was born from a deep appreciation for Korean skincare innovation and the belief that effective products should be accessible to everyone.</p>
+            <p>We combine time-tested Korean ingredients with modern science to create formulations that deliver visible results. Each product is meticulously crafted to honor the tradition of the multi-step skincare ritual while fitting seamlessly into your daily routine.</p>
+            <button class="about-btn">About Us</button>
+        </div>
+        <div class="philosophy-image">
+            <img src="images/philosophy.png" alt="Philosophy Image">
+        </div>
+    </div>
+</section>
+
+<section class="testimonials">
+  <div class="container">
+    <div class="testimonial-header">
+      <p class="user-count">3940+ Happy Users</p>
+      <h2>Don't just take our words</h2>
+    </div>
+
+    <div class="testimonial-slider-container">
+      <div class="testimonial-wrapper" id="testimonial-grid">
+        </div>
+    </div>
+
+    <div class="slider-dots" id="slider-dots">
+      </div>
+  </div>
+</section>
+
+<section class="newsletter">
+  <div class="container">
+    <h2>Join Our Community</h2>
+    <p>Subscribe to our newsletter for exclusive offers, skincare tips, and new product announcements.</p>
+    <div class="newsletter-form">
+      <input type="email" placeholder="Your email address">
+      <button class="subscribe-btn">Subscribe</button>
+    </div>
+  </div>
+</section>
+
+
+<footer class="main-footer">
+    <div class="container footer-grid">
+        <div class="footer-col about-col">
+            <div class="footer-logo">
+                <img src="images/logo.png" alt="Seoul Mirage">
+            </div>
+            <p class="footer-desc">
+                Lorem ipsum dolor sit amet consectetur. <br>
+                Scelerisque lectus habitasse adipiscing.
+            </p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-google"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-col">
+            <h3>Shop</h3>
+            <ul>
+                <li><a href="#">All Products</a></li>
+                <li><a href="#">Bestsellers</a></li>
+                <li><a href="#">New Arrivals</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h3>About</h3>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Shipping & Returns</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container footer-bottom">
+        <hr>
+        <p>© 2025 Seoul Mirage. All rights reserved.</p>
+    </div>
+</footer>
+
+
+<!-- External JS -->
+<script src="app.js"></script>
+
+</body>
+</html>

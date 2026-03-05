@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skincare</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+<nav>
+  <div class="container nav-wrapper">
+
+    <!-- Logo -->
+   <div class="logo">
+      <a href="/">
+        <img src="/images/logo.png" alt="Logo">
+      </a>
+    </div>
+
+    <!-- Desktop Menu -->
+    <ul class="nav-menu">
+      <li>
+        <a href="#">Skincare <i class="fa fa-chevron-down"></i></a>
+        <div class="dropdown">
+          <a href="#">Cleansers</a>
+          <a href="#">Serums</a>
+          <a href="#">Moisturizers</a>
+        </div>
+      </li>
+
+      <li>
+        <a href="products.html">Collections <i class="fa fa-chevron-down"></i></a>
+        <div class="dropdown">
+          <a href="#">Hydration</a>
+          <a href="#">Anti-Aging</a>
+        </div>
+      </li>
+
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <!-- Right Icons (Visible All Devices) -->
+   <div class="nav-icons">
+  <i class="fa fa-search"></i>
+  
+  <div class="profile-container">
+    <i class="fa fa-user" id="profileIcon"></i>
+    <div class="profile-menu" id="profileMenu">
+      <a href="signin.html">Sign In</a>
+      <hr>
+      <a href="signup.html">Sign Up</a>
+    </div>
+  </div>
+
+   <div class="cart-icon-wrapper" style="position: relative; display: inline-block;">
+    <i class="fa fa-bag-shopping" onclick="window.location.href='cart.html'"></i>
+    <span id="cart-count" class="cart-badge">0</span>
+</div>
+
+
+  <div class="hamburger" id="menuToggle">
+    <i class="fa fa-bars" id="menuIcon"></i>
+  </div>
+</div>
+
+  </div>
+</nav>
+
+
+<!-- ================= MOBILE MENU ================= -->
+
+<div class="mobile-menu" id="mobileMenu">
+
+  <div class="close-btn" id="closeMenu">
+    <i class="fa fa-times"></i>
+  </div>
+
+  <ul>
+    <li>
+      <a href="#" id="mobileSkincareBtn">Skincare</a>
+      <div class="mobile-dropdown" id="mobileDrop">
+        <a href="#">Cleansers</a>
+        <a href="#">Serums</a>
+        <a href="#">Moisturizers</a>
+      </div>
+    </li>
+
+    <li><a href="products.html">Collections</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</div>
+
+
+<main class="status-page">
+    <div class="status-content">
+        <div class="status-icon error-bg">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+
+        <h1 class="status-title">Oops! Your Payment Wasn't <span>Completed !</span></h1>
+        <p class="status-desc">It looks like your transaction was canceled—please double-check your details and try again.</p>
+
+        <a href="cart.html" class="dark-btn">
+            Continue Shopping <i class="fa-solid fa-chevron-right"></i>
+        </a>
+    </div>
+</main>
+
+
+
+
+
+
+
+<!-- footer -->
+    <footer class="main-footer">
+    <div class="container footer-grid">
+        <div class="footer-col about-col">
+            <div class="footer-logo">
+                <img src="images/logo.png" alt="Seoul Mirage">
+            </div>
+            <p class="footer-desc">
+                Lorem ipsum dolor sit amet consectetur. <br>
+                Scelerisque lectus habitasse adipiscing.
+            </p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-google"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-col">
+            <h3>Shop</h3>
+            <ul>
+                <li><a href="#">All Products</a></li>
+                <li><a href="#">Bestsellers</a></li>
+                <li><a href="#">New Arrivals</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h3>About</h3>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Shipping & Returns</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container footer-bottom">
+        <hr>
+        <p>© 2025 Seoul Mirage. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="app.js"></script>
+
+</body>
+</html>

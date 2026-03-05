@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skincare</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+<nav>
+  <div class="container nav-wrapper">
+
+    <!-- Logo -->
+   <div class="logo">
+      <a href="/">
+        <img src="/images/logo.png" alt="Logo">
+      </a>
+    </div>
+
+    <!-- Desktop Menu -->
+    <ul class="nav-menu">
+      <li>
+        <a href="#">Skincare <i class="fa fa-chevron-down"></i></a>
+        <div class="dropdown">
+          <a href="#">Cleansers</a>
+          <a href="#">Serums</a>
+          <a href="#">Moisturizers</a>
+        </div>
+      </li>
+
+      <li>
+        <a href="products.html">Collections <i class="fa fa-chevron-down"></i></a>
+        <div class="dropdown">
+          <a href="#">Hydration</a>
+          <a href="#">Anti-Aging</a>
+        </div>
+      </li>
+
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <!-- Right Icons (Visible All Devices) -->
+   <div class="nav-icons">
+  <i class="fa fa-search"></i>
+  
+  <div class="profile-container">
+    <i class="fa fa-user" id="profileIcon"></i>
+    <div class="profile-menu" id="profileMenu">
+      <a href="signin.html">Sign In</a>
+      <hr>
+      <a href="signup.html">Sign Up</a>
+    </div>
+  </div>
+
+   <div class="cart-icon-wrapper" style="position: relative; display: inline-block;">
+    <i class="fa fa-bag-shopping" onclick="window.location.href='cart.html'"></i>
+    <span id="cart-count" class="cart-badge">0</span>
+</div>
+
+
+  <div class="hamburger" id="menuToggle">
+    <i class="fa fa-bars" id="menuIcon"></i>
+  </div>
+</div>
+
+  </div>
+</nav>
+
+
+<!-- ================= MOBILE MENU ================= -->
+
+<div class="mobile-menu" id="mobileMenu">
+
+  <div class="close-btn" id="closeMenu">
+    <i class="fa fa-times"></i>
+  </div>
+
+  <ul>
+    <li>
+      <a href="#" id="mobileSkincareBtn">Skincare</a>
+      <div class="mobile-dropdown" id="mobileDrop">
+        <a href="#">Cleansers</a>
+        <a href="#">Serums</a>
+        <a href="#">Moisturizers</a>
+      </div>
+    </li>
+
+    <li><a href="products.html">Collections</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</div>
+
+
+
+
+<section class="shopping-cart-container container">
+    <h1 class="cart-title">Shopping Cart</h1>
+
+    <div class="cart-wrapper">
+        <div class="cart-items-list">
+            <div class="cart-item">
+                <div class="item-img">
+                    <img src="images/product1.png" alt="Hydrating Essence">
+                </div>
+                <div class="item-details">
+                    <h3>Hydrating Essence</h3>
+                    <p class="qty-text">Quantity: 1</p>
+                    <div class="qty-controls">
+                        <button class="qty-btn"><i class="fa-solid fa-plus"></i></button>
+                        <span class="qty-num">1</span>
+                        <button class="qty-btn"><i class="fa-solid fa-minus"></i></button>
+                    </div>
+                </div>
+                <div class="item-price-action">
+                    <span class="price">$48</span>
+                    <button class="delete-btn"><i class="fa-regular fa-trash-can"></i></button>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <div class="item-img">
+                    <img src="images/product2.png" alt="Nourishing Cream">
+                </div>
+                <div class="item-details">
+                    <h3>Nourishing Cream</h3>
+                    <p class="qty-text">Quantity: 1</p>
+                    <div class="qty-controls">
+                        <button class="qty-btn"><i class="fa-solid fa-plus"></i></button>
+                        <span class="qty-num">1</span>
+                        <button class="qty-btn"><i class="fa-solid fa-minus"></i></button>
+                    </div>
+                </div>
+                <div class="item-price-action">
+                    <span class="price">$48</span>
+                    <button class="delete-btn"><i class="fa-regular fa-trash-can"></i></button>
+                </div>
+            </div>
+
+            <button class="continue-btn">Continue Shopping</button>
+        </div>
+
+        <div class="summary-box">
+            <h2>Order Summary</h2>
+            <div class="summary-row">
+                <span>Subtotal</span>
+                <span>$152.00</span>
+            </div>
+            <div class="summary-row">
+                <span>Shipping</span>
+                <span>$5.99</span>
+            </div>
+            <hr class="summary-divider">
+            <div class="summary-row total-row">
+                <span>Total</span>
+                <span>$157.99</span>
+            </div>
+
+            <div class="promo-section">
+                <input type="text" placeholder="Promo Code" class="promo-input">
+                <button class="apply-btn">Apply</button>
+            </div>
+
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!-- footer -->
+    <footer class="main-footer">
+    <div class="container footer-grid">
+        <div class="footer-col about-col">
+            <div class="footer-logo">
+                <img src="images/logo.png" alt="Seoul Mirage">
+            </div>
+            <p class="footer-desc">
+                Lorem ipsum dolor sit amet consectetur. <br>
+                Scelerisque lectus habitasse adipiscing.
+            </p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-google"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-col">
+            <h3>Shop</h3>
+            <ul>
+                <li><a href="#">All Products</a></li>
+                <li><a href="#">Bestsellers</a></li>
+                <li><a href="#">New Arrivals</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h3>About</h3>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Shipping & Returns</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container footer-bottom">
+        <hr>
+        <p>© 2025 Seoul Mirage. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="app.js"></script>
+
+</body>
+</html>

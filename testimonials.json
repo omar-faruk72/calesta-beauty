@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Devon Lane",
+    "rating": 5,
+    "image": "/images/user1.png",
+    "text": "\"We love Seoul Mirage! Our team has been using their serums for projects, and the results are consistently amazing. The glow is real!\""
+  },
+  {
+    "id": 2,
+    "name": "Arlene McCoy",
+    "rating": 4,
+    "image": "/images/user2.png",
+    "text": "\"The Brightening Serum is a game changer. I've tried many premium brands, but the clean ingredients here really make a difference for my sensitive skin.\""
+  },
+  {
+    "id": 3,
+    "name": "Kathryn Murphy",
+    "rating": 5,
+    "image": "/images/user1.png",
+    "text": "\"Finally, a moisturizer that doesn't feel greasy! It sinks right in and keeps me hydrated all day. Highly recommend to everyone looking for quality.\""
+  },
+  {
+    "id": 4,
+    "name": "Eleanor Pena",
+    "rating": 5,
+    "image": "/images/user2.png",
+    "text": "\"I've seen a visible reduction in my fine lines after just two weeks of using the Night Repair. This is officially my new holy grail skincare routine.\""
+  }
+]

@@ -1,0 +1,6 @@
+[
+  { "id": 1, "name": "Cleansers", "image": "images/cat1.png" },
+  { "id": 2, "name": "Serums", "image": "images/product2.png" },
+  { "id": 3, "name": "Moisturizers", "image": "images/product1.png" },
+  { "id": 4, "name": "Masks", "image": "images/cat4.png" }
+]

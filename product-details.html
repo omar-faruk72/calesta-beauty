@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skincare</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+<nav>
+  <div class="container nav-wrapper">
+
+    <!-- Logo -->
+   <div class="logo">
+      <a href="/">
+        <img src="/images/logo.png" alt="Logo">
+      </a>
+    </div>
+
+    <!-- Desktop Menu -->
+    <ul class="nav-menu">
+      <li>
+        <a href="#">Skincare <i class="fa fa-chevron-down"></i></a>
+        <div class="dropdown">
+          <a href="#">Cleansers</a>
+          <a href="#">Serums</a>
+          <a href="#">Moisturizers</a>
+        </div>
+      </li>
+
+      <li>
+        <a href="products.html">Collections <i class="fa fa-chevron-down"></i></a>
+        <div class="dropdown">
+          <a href="#">Hydration</a>
+          <a href="#">Anti-Aging</a>
+        </div>
+      </li>
+
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <!-- Right Icons (Visible All Devices) -->
+   <div class="nav-icons">
+  <i class="fa fa-search"></i>
+  
+  <div class="profile-container">
+    <i class="fa fa-user" id="profileIcon"></i>
+    <div class="profile-menu" id="profileMenu">
+      <a href="signin.html">Sign In</a>
+      <hr>
+      <a href="signup.html">Sign Up</a>
+    </div>
+  </div>
+
+   <div class="cart-icon-wrapper" style="position: relative; display: inline-block;">
+    <i class="fa fa-bag-shopping" onclick="window.location.href='cart.html'"></i>
+    <span id="cart-count" class="cart-badge">0</span>
+</div>
+
+
+  <div class="hamburger" id="menuToggle">
+    <i class="fa fa-bars" id="menuIcon"></i>
+  </div>
+</div>
+
+  </div>
+</nav>
+
+
+<!-- ================= MOBILE MENU ================= -->
+
+<div class="mobile-menu" id="mobileMenu">
+
+  <div class="close-btn" id="closeMenu">
+    <i class="fa fa-times"></i>
+  </div>
+
+  <ul>
+    <li>
+      <a href="#" id="mobileSkincareBtn">Skincare</a>
+      <div class="mobile-dropdown" id="mobileDrop">
+        <a href="#">Cleansers</a>
+        <a href="#">Serums</a>
+        <a href="#">Moisturizers</a>
+      </div>
+    </li>
+
+    <li><a href="products.html">Collections</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</div>
+
+
+
+<section class="product-details">
+    <div class="container detail-wrapper">
+        <div class="product-gallery">
+            <div class="thumbnails">
+                <img src="images/thumb1.jpg" class="active" onclick="changeImage(this)">
+                <img src="images/thumb2.jpg" onclick="changeImage(this)">
+                <img src="images/thumb3.jpg" onclick="changeImage(this)">
+                <img src="images/thumb4.jpg" onclick="changeImage(this)">
+            </div>
+            <div class="main-image">
+                <img src="images/main-prod.jpg" id="featured-image">
+            </div>
+        </div>
+
+        <div class="product-info-box">
+            <h1 id="product-name">Product 1</h1>
+            <div class="review-stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span>157 Reviews</span>
+            </div>
+
+            <div class="price-section">
+                <span class="currency">$</span>
+                <span class="price">49</span>
+                <span class="decimal">99</span>
+            </div>
+            <p class="promo-text"><i class="fa-solid fa-tag"></i> Save 50% right now</p>
+
+            <div class="details-content">
+                <h3>Details</h3>
+                <p>Figma ipsum component variant main layer. Opacity draft.</p>
+                
+                <h4>STRAIGHT UP:</h4>
+                <p>Lorem ipsum dolor sit amet consectetur. Augue dui sed sit tristique elementum. Nullam tortor lectus dolor tristique ac.</p>
+
+                <h4>THE LOWDOWN:</h4>
+                <ul>
+                    <li>Helps improve the look of pores in just 1 week.</li>
+                    <li>Brightens and evens skin tone with every sleep.</li>
+                    <li>Plumps skin and improves the look of wrinkles instantly.</li>
+                </ul>
+            </div>
+
+            <div class="purchase-actions">
+                <div class="quantity-selector">
+                    <button onclick="updateQty(-1)">-</button>
+                    <input type="number" id="qty" value="1" min="1">
+                    <button onclick="updateQty(1)">+</button>
+                </div>
+                <button class="add-to-cart-btn" id="details-add-btn">
+    Add to cart <i class="fa-solid fa-arrow-right"></i>
+</button>
+                <button class="wishlist-btn"><i class="fa-regular fa-heart"></i></button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="products-section container">
+  <div class="section-header">
+    <h2>Hand picked for you</h2>
+    <a href="products.html" class="view-all">View all products <i class="fa fa-arrow-right"></i></a>
+  </div>
+  <div class="product-grid" id="new-arrival-grid">
+    </div>
+</section>
+
+
+<section class="reviews-section">
+    <div class="container reviews-wrapper">
+        <div class="reviews-stats-col">
+            <h2>Ratings and Reviews</h2>
+            <div class="overall-stat-box">
+                <div id="stat-stars" class="stars-group">
+                    </div>
+                <span id="stat-count">0 Reviews</span>
+            </div>
+            
+           <button class="write-review-pill" id="open-review-btn">Write a Review</button>
+            
+          <div id="review-form-container" class="review-form-card hidden">
+    <h3>Submit Your Review</h3>
+    
+    <div class="input-group">
+        <input type="text" id="reviewer-name" placeholder="Full Name">
+    </div>
+
+    <div class="rating-selector">
+        <p>Your Rating:</p>
+        <div class="rating-btns">
+            <button class="rate-btn" data-val="1" onclick="setRating(1)">1</button>
+            <button class="rate-btn" data-val="2" onclick="setRating(2)">2</button>
+            <button class="rate-btn" data-val="3" onclick="setRating(3)">3</button>
+            <button class="rate-btn" data-val="4" onclick="setRating(4)">4</button>
+            <button class="rate-btn" data-val="5" onclick="setRating(5)">5</button>
+        </div>
+    </div>
+
+    <div class="input-group">
+        <textarea id="review-comment" placeholder="Write your experience..."></textarea>
+    </div>
+
+    <button onclick="submitReview()" class="submit-btn">Post Review</button>
+</div>
+        </div>
+
+        <div class="reviews-list-col" id="dynamic-reviews-container">
+            </div>
+    </div>
+</section>
+
+
+
+<section class="newsletter">
+  <div class="container">
+    <h2>Join Our Community</h2>
+    <p>Subscribe to our newsletter for exclusive offers, skincare tips, and new product announcements.</p>
+    <div class="newsletter-form">
+      <input type="email" placeholder="Your email address">
+      <button class="subscribe-btn">Subscribe</button>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="products-section container">
+  <div class="section-header">
+    <h2>Bestsellers</h2>
+    <a href="products.html" class="view-all">View all products <i class="fa fa-arrow-right"></i></a>
+  </div>
+  <div class="product-grid" id="bestseller-grid">
+    
+    </div>
+</section>
+
+
+
+
+
+<!-- footer -->
+    <footer class="main-footer">
+    <div class="container footer-grid">
+        <div class="footer-col about-col">
+            <div class="footer-logo">
+                <img src="images/logo.png" alt="Seoul Mirage">
+            </div>
+            <p class="footer-desc">
+                Lorem ipsum dolor sit amet consectetur. <br>
+                Scelerisque lectus habitasse adipiscing.
+            </p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-google"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-col">
+            <h3>Shop</h3>
+            <ul>
+                <li><a href="#">All Products</a></li>
+                <li><a href="#">Bestsellers</a></li>
+                <li><a href="#">New Arrivals</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h3>About</h3>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Shipping & Returns</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container footer-bottom">
+        <hr>
+        <p>© 2025 Seoul Mirage. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="app.js"></script>
+
+</body>
+</html>

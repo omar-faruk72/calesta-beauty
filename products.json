@@ -1,0 +1,479 @@
+[
+   {
+    "id": 1,
+    "name": "Brightening Serum",
+    "category": "Serums",
+    "price": 65.99,
+    "rating": 4.9,
+    "reviews": 157,
+    "image": ["images/product1.png", "images/sub1.png", "images/sub2.png", "images/sub3.png", "images/sub4.png"],
+    "promo": "Save 50% right now",
+    "details": "High-performance brightening serum with Vitamin C.",
+    "straight_up": "Get that instant glow with our specialized Vitamin C formula.",
+    "lowdown": [
+      "Helps improve the look of pores in just 1 week.",
+      "Brightens and evens skin tone with every sleep.",
+      "Plumps skin and improves the look of wrinkles instantly."
+    ],
+    "isBestseller": true,
+    "isNew": false,
+    "reviews_list": [
+      {
+        "user_name": "Kristin Watson",
+        "user_image": "images/user1.png",
+        "rating": 5,
+        "date": "March 14, 2021",
+        "comment": "You made it so simple. My skin feels so much smoother and the glow is real! Just choose the product, apply, and see the changes."
+      },
+      {
+        "user_name": "Esther Howard",
+        "user_image": "images/user2.png",
+        "rating": 5,
+        "date": "January 20, 2021",
+        "comment": "Best serum I've used so far. Highly recommended for dark spots."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Hydrating Face Cream",
+    "category": "Face",
+    "price": 45.00,
+    "rating": 4.7,
+    "reviews": 92,
+    "image": ["images/product2.png", "images/sub1.png", "images/sub2.png", "images/sub3.png", "images/sub4.png"],
+    "promo": "Free shipping on this item",
+    "details": "Deep hydration for dry and sensitive skin types.",
+    "straight_up": "Moisture that lasts 24 hours without feeling greasy.",
+    "lowdown": [
+      "Locks in moisture for a dewy finish.",
+      "Contains hyaluronic acid for deep repair.",
+      "Dermatologist tested and paraben-free."
+    ],
+    "isBestseller": true,
+    "isNew": false,
+    "reviews_list": [
+      {
+        "user_name": "Guy Hawkins",
+        "user_image": "images/user3.jpg",
+        "rating": 4,
+        "date": "May 12, 2021",
+        "comment": "Very hydrating, but a bit thick for daytime use. Perfect for night."
+      },
+      {
+        "user_name": "Arlene McCoy",
+        "user_image": "images/user1.png",
+        "rating": 5,
+        "date": "June 05, 2021",
+        "comment": "Finally found something that doesn't irritate my sensitive skin."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Brow Defining Gel",
+    "category": "Brow",
+    "price": 25.50,
+    "rating": 4.8,
+    "reviews": 210,
+    "image": ["images/product3.png", "images/sub1.png", "images/sub2.png", "images/sub3.png", "images/sub4.png"],
+    "promo": "Buy 2 get 1 free",
+    "details": "Clear and tinted gel for perfect brow setting.",
+    "straight_up": "Define your brows with natural-looking hair strokes.",
+    "lowdown": [
+      "Smudge-proof and water-resistant formula.",
+      "Long-lasting hold for up to 12 hours.",
+      "Enriched with vitamins for brow growth."
+    ],
+    "isBestseller": true,
+    "isNew": false,
+    "reviews_list": [
+      {
+        "user_name": "Cody Fisher",
+        "user_image": "images/user2.png",
+        "rating": 5,
+        "date": "February 28, 2021",
+        "comment": "Holds my brows in place all day without feeling crunchy."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Eye Recovery Mask",
+    "category": "Eye",
+    "price": 38.00,
+    "rating": 4.6,
+    "reviews": 54,
+    "image": ["images/product4.png", "images/sub1.png", "images/sub2.png", "images/sub3.png", "images/sub4.png"],
+    "promo": "Limited time offer",
+    "details": "Cooling eye mask to reduce puffiness and dark circles.",
+    "straight_up": "Wake up looking refreshed even after a long night.",
+    "lowdown": [
+      "Reduces dark circles in 2 weeks.",
+      "Cooling sensation instantly calms eyes.",
+      "Safe for contact lens wearers."
+    ],
+    "isBestseller": true,
+    "isNew": false,
+    "reviews_list": [
+      {
+        "user_name": "Savannah Nguyen",
+        "user_image": "images/user1.png",
+        "rating": 4,
+        "date": "July 18, 2021",
+        "comment": "Love the cooling effect. Helps with my morning puffiness."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Night Repair Oil",
+    "category": "Serums",
+    "price": 75.25,
+    "rating": 4.9,
+    "reviews": 128,
+    "image": ["images/product5.png", "images/sub1.png", "images/sub2.png", "images/sub3.png", "images/sub4.png"],
+    "promo": "New Arrival - 10% Off",
+    "details": "Powerful overnight recovery oil for aged skin.",
+    "straight_up": "The ultimate solution for anti-aging and skin repair.",
+    "lowdown": [
+      "Reduces fine lines and wrinkles.",
+      "Non-comedogenic (won't clog pores).",
+      "Noticeable results in 14 nights."
+    ],
+    "isBestseller": false,
+    "isNew": true,
+    "reviews_list": [
+      {
+        "user_name": "Eleanor Pena",
+        "user_image": "images/user2.png",
+        "rating": 5,
+        "date": "August 22, 2021",
+        "comment": "Waking up with plump skin every morning. Worth the price!"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Daily Sunscreen SPF 50",
+    "category": "Face",
+    "price": 30.00,
+    "rating": 4.5,
+    "reviews": 320,
+    "image": ["images/product6.png", "images/sub1.png", "images/sub2.png", "images/sub3.png", "images/sub4.png"],
+    "promo": "Stay safe in the sun",
+    "details": "Lightweight sunscreen with zero white cast.",
+    "straight_up": "Invisible protection against UVA and UVB rays.",
+    "lowdown": [
+      "Sweat and water resistant for 80 mins.",
+      "No sticky residue, perfect under makeup.",
+      "Contains antioxidants for skin protection."
+    ],
+    "isBestseller": false,
+    "isNew": true,
+    "reviews_list": [
+      {
+        "user_name": "Marvin McKinney",
+        "user_image": "images/user1.png",
+        "rating": 5,
+        "date": "September 10, 2021",
+        "comment": "No white cast at all! Works perfectly under my foundation."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Lip Plumping Balm",
+    "category": "Lip",
+    "price": 18.99,
+    "rating": 4.4,
+    "reviews": 112,
+    "image": ["images/product7.png", "images/sub1.png", "images/sub2.png", "images/sub3.png", "images/sub4.png"],
+    "promo": "Fresh Lips, Best Price",
+    "details": "Hydrating balm that adds natural volume to lips.",
+    "straight_up": "Soft, plump, and healthy lips in one swipe.",
+    "lowdown": [
+      "Instant plumping effect.",
+      "Infused with shea butter and jojoba oil.",
+      "Available in 5 subtle tints."
+    ],
+    "isBestseller": false,
+    "isNew": true,
+    "reviews_list": [
+      {
+        "user_name": "Bessie Cooper",
+        "user_image": "images/user2.png",
+        "rating": 4,
+        "date": "October 02, 2021",
+        "comment": "The tingle is strong but the results are beautiful."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Complete Glow Set",
+    "category": "Sets",
+    "price": 120.00,
+    "rating": 5.0,
+    "reviews": 45,
+    "image": ["images/product8.png", "images/sub1.png", "images/sub2.png", "images/sub3.png", "images/sub4.png"],
+    "promo": "Best Value Bundle",
+    "details": "A 5-piece set for a complete morning routine.",
+    "straight_up": "Everything you need for a radiant skin in one box.",
+    "lowdown": [
+      "Includes Cleanser, Toner, Serum, and Cream.",
+      "Saves $30 compared to buying individually.",
+      "Comes with a luxury travel pouch."
+    ],
+    "isBestseller": false,
+    "isNew": true,
+    "reviews_list": [
+      {
+        "user_name": "Albert Flores",
+        "user_image": "images/user1.png",
+        "rating": 5,
+        "date": "November 15, 2021",
+        "comment": "The perfect gift set. The pouch is high quality too!"
+      }
+    ]
+  },
+
+  {
+    "id": 7,
+    "name": "Brightening Serum",
+    "category": "Serums",
+    "price": 65.99,
+    "rating": 4.9,
+    "reviews": 157,
+    "image": ["images/product1.png", "images/sub1.png", "images/sub2.png", "images/sub3.png", "images/sub4.png"],
+    "promo": "Save 50% right now",
+    "details": "High-performance brightening serum with Vitamin C.",
+    "straight_up": "Get that instant glow with our specialized Vitamin C formula.",
+    "lowdown": [
+      "Helps improve the look of pores in just 1 week.",
+      "Brightens and evens skin tone with every sleep.",
+      "Plumps skin and improves the look of wrinkles instantly."
+    ],
+    "isBestseller": true,
+    "isNew": false,
+    "reviews_list": [
+      {
+        "user_name": "Kristin Watson",
+        "user_image": "images/user1.png",
+        "rating": 5,
+        "date": "March 14, 2021",
+        "comment": "You made it so simple. My skin feels so much smoother and the glow is real! Just choose the product, apply, and see the changes."
+      },
+      {
+        "user_name": "Esther Howard",
+        "user_image": "images/user2.png",
+        "rating": 5,
+        "date": "January 20, 2021",
+        "comment": "Best serum I've used so far. Highly recommended for dark spots."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Hydrating Face Cream",
+    "category": "Face",
+    "price": 45.00,
+    "rating": 4.7,
+    "reviews": 92,
+    "image": ["images/product2.png", "images/sub1.png", "images/sub2.png", "images/sub3.png", "images/sub4.png"],
+    "promo": "Free shipping on this item",
+    "details": "Deep hydration for dry and sensitive skin types.",
+    "straight_up": "Moisture that lasts 24 hours without feeling greasy.",
+    "lowdown": [
+      "Locks in moisture for a dewy finish.",
+      "Contains hyaluronic acid for deep repair.",
+      "Dermatologist tested and paraben-free."
+    ],
+    "isBestseller": true,
+    "isNew": false,
+    "reviews_list": [
+      {
+        "user_name": "Guy Hawkins",
+        "user_image": "images/user3.jpg",
+        "rating": 4,
+        "date": "May 12, 2021",
+        "comment": "Very hydrating, but a bit thick for daytime use. Perfect for night."
+      },
+      {
+        "user_name": "Arlene McCoy",
+        "user_image": "images/user1.png",
+        "rating": 5,
+        "date": "June 05, 2021",
+        "comment": "Finally found something that doesn't irritate my sensitive skin."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Brow Defining Gel",
+    "category": "Brow",
+    "price": 25.50,
+    "rating": 4.8,
+    "reviews": 210,
+    "image": ["images/product3.png", "images/sub1.png", "images/sub2.png", "images/sub3.png", "images/sub4.png"],
+    "promo": "Buy 2 get 1 free",
+    "details": "Clear and tinted gel for perfect brow setting.",
+    "straight_up": "Define your brows with natural-looking hair strokes.",
+    "lowdown": [
+      "Smudge-proof and water-resistant formula.",
+      "Long-lasting hold for up to 12 hours.",
+      "Enriched with vitamins for brow growth."
+    ],
+    "isBestseller": true,
+    "isNew": false,
+    "reviews_list": [
+      {
+        "user_name": "Cody Fisher",
+        "user_image": "images/user2.png",
+        "rating": 5,
+        "date": "February 28, 2021",
+        "comment": "Holds my brows in place all day without feeling crunchy."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Eye Recovery Mask",
+    "category": "Eye",
+    "price": 38.00,
+    "rating": 4.6,
+    "reviews": 54,
+    "image": ["images/product4.png", "images/sub1.png", "images/sub2.png", "images/sub3.png", "images/sub4.png"],
+    "promo": "Limited time offer",
+    "details": "Cooling eye mask to reduce puffiness and dark circles.",
+    "straight_up": "Wake up looking refreshed even after a long night.",
+    "lowdown": [
+      "Reduces dark circles in 2 weeks.",
+      "Cooling sensation instantly calms eyes.",
+      "Safe for contact lens wearers."
+    ],
+    "isBestseller": true,
+    "isNew": false,
+    "reviews_list": [
+      {
+        "user_name": "Savannah Nguyen",
+        "user_image": "images/user1.png",
+        "rating": 4,
+        "date": "July 18, 2021",
+        "comment": "Love the cooling effect. Helps with my morning puffiness."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Night Repair Oil",
+    "category": "Serums",
+    "price": 75.25,
+    "rating": 4.9,
+    "reviews": 128,
+    "image": ["images/product5.png", "images/sub1.png", "images/sub2.png", "images/sub3.png", "images/sub4.png"],
+    "promo": "New Arrival - 10% Off",
+    "details": "Powerful overnight recovery oil for aged skin.",
+    "straight_up": "The ultimate solution for anti-aging and skin repair.",
+    "lowdown": [
+      "Reduces fine lines and wrinkles.",
+      "Non-comedogenic (won't clog pores).",
+      "Noticeable results in 14 nights."
+    ],
+    "isBestseller": false,
+    "isNew": true,
+    "reviews_list": [
+      {
+        "user_name": "Eleanor Pena",
+        "user_image": "images/user2.png",
+        "rating": 5,
+        "date": "August 22, 2021",
+        "comment": "Waking up with plump skin every morning. Worth the price!"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Daily Sunscreen SPF 50",
+    "category": "Face",
+    "price": 30.00,
+    "rating": 4.5,
+    "reviews": 320,
+    "image": ["images/product6.png", "images/sub1.png", "images/sub2.png", "images/sub3.png", "images/sub4.png"],
+    "promo": "Stay safe in the sun",
+    "details": "Lightweight sunscreen with zero white cast.",
+    "straight_up": "Invisible protection against UVA and UVB rays.",
+    "lowdown": [
+      "Sweat and water resistant for 80 mins.",
+      "No sticky residue, perfect under makeup.",
+      "Contains antioxidants for skin protection."
+    ],
+    "isBestseller": false,
+    "isNew": true,
+    "reviews_list": [
+      {
+        "user_name": "Marvin McKinney",
+        "user_image": "images/user1.png",
+        "rating": 5,
+        "date": "September 10, 2021",
+        "comment": "No white cast at all! Works perfectly under my foundation."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Lip Plumping Balm",
+    "category": "Lip",
+    "price": 18.99,
+    "rating": 4.4,
+    "reviews": 112,
+    "image": ["images/product7.png", "images/sub1.png", "images/sub2.png", "images/sub3.png", "images/sub4.png"],
+    "promo": "Fresh Lips, Best Price",
+    "details": "Hydrating balm that adds natural volume to lips.",
+    "straight_up": "Soft, plump, and healthy lips in one swipe.",
+    "lowdown": [
+      "Instant plumping effect.",
+      "Infused with shea butter and jojoba oil.",
+      "Available in 5 subtle tints."
+    ],
+    "isBestseller": false,
+    "isNew": true,
+    "reviews_list": [
+      {
+        "user_name": "Bessie Cooper",
+        "user_image": "images/user2.png",
+        "rating": 4,
+        "date": "October 02, 2021",
+        "comment": "The tingle is strong but the results are beautiful."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Complete Glow Set",
+    "category": "Sets",
+    "price": 120.00,
+    "rating": 5.0,
+    "reviews": 45,
+    "image": ["images/product8.png", "images/sub1.png", "images/sub2.png", "images/sub3.png", "images/sub4.png"],
+    "promo": "Best Value Bundle",
+    "details": "A 5-piece set for a complete morning routine.",
+    "straight_up": "Everything you need for a radiant skin in one box.",
+    "lowdown": [
+      "Includes Cleanser, Toner, Serum, and Cream.",
+      "Saves $30 compared to buying individually.",
+      "Comes with a luxury travel pouch."
+    ],
+    "isBestseller": false,
+    "isNew": true,
+    "reviews_list": [
+      {
+        "user_name": "Albert Flores",
+        "user_image": "images/user3.png",
+        "rating": 5,
+        "date": "November 15, 2021",
+        "comment": "The perfect gift set. The pouch is high quality too!"
+      }
+    ]
+  }
+]

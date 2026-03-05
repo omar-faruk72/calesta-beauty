@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemini Admin | Premium Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <div class="admin-layout">
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <div class="logo-box">G</div>
+                <div class="brand-text"><h3>Gemini</h3><span>Store Admin</span></div>
+                <button class="mobile-close" id="sidebarClose"><i class="fa fa-times"></i></button>
+            </div>
+            <nav class="sidebar-nav">
+                <p class="section-label">Main</p>
+                <a href="#" class="nav-item active" data-section="overview"><i class="fa-solid fa-house"></i> <span>Dashboard</span></a>
+                <p class="section-label">Store Management</p>
+                <a href="#" class="nav-item" data-section="products"><i class="fa-solid fa-box"></i> <span>Products</span></a>
+                <a href="#" class="nav-item" data-section="categories"><i class="fa-solid fa-layer-group"></i> <span>Categories</span></a>
+                <a href="#" class="nav-item" data-section="users"><i class="fa-solid fa-users"></i> <span>Customers</span></a>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <header class="top-nav">
+                <button class="menu-toggle" id="menuToggle"><i class="fa fa-bars"></i></button>
+                <h2 id="section-title">Dashboard Overview</h2>
+                <div class="admin-profile">
+                    <img src="https://ui-avatars.com/api/?name=Admin&background=111&color=fff" alt="Admin">
+                </div>
+            </header>
+
+            <div id="content-body" class="content-wrapper">
+                </div>
+        </main>
+    </div>
+
+    <div id="adminModal" class="modal">
+        <div class="modal-card">
+            <div class="modal-header">
+                <h3 id="modal-title">Form</h3>
+                <button class="close-modal" id="closeModal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form id="dynamic-form" enctype="multipart/form-data">
+                    <div id="form-fields"></div>
+                    <button type="submit" class="btn-submit">Confirm & Save</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="admin.js"></script>
+</body>
+</html>
