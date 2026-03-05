@@ -33,7 +33,7 @@ let allProductsData = [];
 let filteredData = []; 
 let currentPage = 1;
 const rowsPerPage = 8; 
-const API_URL = 'https://ecommerce-server-pied-nine.vercel.app/api'; 
+const API_URL = 'https://calesta-beauty-server.vercel.app/api'; 
 
 async function initStore() {
     try {
@@ -898,7 +898,7 @@ function updateProfileDropdown() {
 window.handleLogout = async (e) => {
     e.preventDefault();
     try {
-        const response = await fetch('https://ecommerce-server-pied-nine.vercel.app/api/auth/logout');
+        const response = await fetch('https://calesta-beauty-server.vercel.app/api/auth/logout');
         const result = await response.json();
 
         if (result.success) {
@@ -934,7 +934,7 @@ if (loginForm) {
         submitBtn.disabled = true;
 
         try {
-            const response = await fetch('https://ecommerce-server-pied-nine.vercel.app/api/auth/login', {
+            const response = await fetch('https://calesta-beauty-server.vercel.app/api/auth/login', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ email, password })
@@ -1000,7 +1000,7 @@ if (signupForm) {
         if (imageFile) formData.append('image', imageFile);
 
         try {
-            const response = await fetch('https://ecommerce-server-pied-nine.vercel.app/api/auth/register', {
+            const response = await fetch('https://calesta-beauty-server.vercel.app/api/auth/register', {
                 method: 'POST',
                 // FormData use korle headers-e 'Content-Type' manually dewa lage na
                 body: formData

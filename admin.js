@@ -1,4 +1,4 @@
-const API_URL = "https://ecommerce-server-pied-nine.vercel.app/api";
+const API_URL = "https://calesta-beauty-server.vercel.app/api";
 let currentEditId = null;
 
 // ======================== CORE NAVIGATION ========================
